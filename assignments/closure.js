@@ -1,7 +1,17 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
-
+function house(){
+  console.log("im in my house")
+    function kitchen(){
+      console.log("im inside the kitchen inside the house")
+        function fridge(){
+          console.log("im the fridge in inside the kitchen thats inside the house")
+        }
+        fridge();
+    }
+    kitchen();
+}
+house();
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
